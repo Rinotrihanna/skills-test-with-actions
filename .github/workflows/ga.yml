@@ -20,7 +20,7 @@ jobs:
 
       # Шаг 2: Настройка Buildx для Docker
       - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v2
+        uses: docker/setup-buildx-action@v3
 
       # Шаг 3: Кэширование слоев Docker
       - name: Cache Docker layers
